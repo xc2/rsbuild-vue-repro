@@ -1,0 +1,16 @@
+{
+  "name": "vue3-less",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "JITI_SOURCE_MAPS=1 rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "vue": "3.4.21",
+    "@rsbuild/core": "workspace:0.0.0",
+    "@rsbuild/plugin-vue": "workspace:0.0.0",
+    "typescript": "workspace:0.0.0"
+  }
+}
